@@ -1,3 +1,19 @@
+@font-face {
+    font-family: ModernEra;
+    src: url(fonts/ModernEra-Medium.otf);
+}
+@font-face {
+    font-family: RecoletaBold;
+    src: url(fonts/Recoleta-Bold.ttf);
+}
+@font-face {
+    font-family: ModernEraReg;
+    src: url(fonts/ModernEra-Regular/ModernEra-Regular.ttf);
+}
+@font-face {
+    font-family: RecoletaLight;
+    src: url(fonts/recoleta/Recoleta-Light.ttf);
+}
 #body-1 {
     /* color: #F8F4F2; */
     background: #F8F4F2;
