@@ -1,0 +1,9 @@
+{
+    "cmake.enabledOutputParsers": [
+        "gcc",
+        "gnuld",
+        "msvc",
+        "ghs",
+        "diab"
+    ]
+}

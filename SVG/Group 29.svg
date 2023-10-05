@@ -1,0 +1,16 @@
+<svg width="650" height="773" viewBox="0 0 650 773" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M350 0H0V364.518H0.000433842C0.000144664 364.621 0 364.723 0 364.826C0 440.24 78.3502 501.375 175 501.375C271.65 501.375 350 440.24 350 364.826C350 364.723 350 364.621 350 364.518H350V0Z" fill="#FF9400" fill-opacity="0.6"/>
+<circle cx="175.5" cy="413.5" r="87.5" fill="#F3726C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M175 87.5V259.875H0V87.5V84.875H0.0386222C1.42667 37.7644 40.0532 0 87.5 0C134.947 0 173.573 37.7644 174.961 84.875H175V87.5Z" fill="#CAC7E0"/>
+<circle cx="87.5" cy="262.5" r="87.5" fill="#394257"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M350 87.5H175V262.5C175 310.825 214.175 350 262.5 350C310.825 350 350 310.825 350 262.5V87.5Z" fill="#EEF578"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M250 174.114C207.596 168.049 175 131.581 175 87.5001C175 43.4192 207.596 6.9516 250 0.88623V174.114Z" fill="#982959"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M650 0H250V562H250C250 562.158 250 562.316 250 562.474C250 678.744 339.543 773 450 773C560.457 773 650 678.744 650 562.474C650 562.316 650 562.158 650 562H650V0Z" fill="#FF9400" fill-opacity="0.8"/>
+<circle cx="450" cy="673" r="100" fill="#86B062"/>
+<circle cx="350" cy="100" r="100" fill="#FAF2BF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M450 300V497H250V300V297H250.044C251.63 243.159 295.775 200 350 200C404.225 200 448.37 243.159 449.956 297H450V300Z" fill="#AE74D9"/>
+<circle cx="350" cy="500" r="100" fill="#E0518B"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M550 200C605.229 200 650 155.228 650 100V0H550H450V100C450 155.228 494.771 200 550 200Z" fill="#A1CB67"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M650 300H450V500C450 555.228 494.772 600 550 600C605.228 600 650 555.228 650 500V300Z" fill="#06C4F6"/>
+<circle cx="550" cy="300" r="100" fill="#435FBB"/>
+</svg>

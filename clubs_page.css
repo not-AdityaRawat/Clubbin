@@ -1,0 +1,559 @@
+@font-face {
+    font-family: 'GuthenBloots';
+    src: url(fonts/Guthen\ Bloots\ Personal\ Use.ttf);
+}
+@font-face {
+    font-family: ModernEra;
+    src: url(fonts/ModernEra-Medium.otf);
+}
+@font-face {
+    font-family: RecoletaBold;
+    src: url(fonts/Recoleta-Bold.ttf);
+}
+@font-face {
+    font-family: ModernEraReg;
+    src: url(fonts/ModernEra-Regular/ModernEra-Regular.ttf);
+}
+@font-face {
+    font-family: RecoletaLight;
+    src: url(fonts/recoleta/Recoleta-Light.ttf);
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+body {
+    background-color: #F8F4F2; 
+}
+.nav-items {
+    display: inline-flex;
+    /* padding: 10px; */
+    text-align: end;
+    margin-right: 78px;
+    margin-left: -8px;
+
+    font-family: 'Modern Era';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #847E7C;
+    cursor: pointer;
+}
+
+#Home.nav-items {
+    color: rgba(33, 30, 29, 1);
+    ;
+}
+.nav-items a{
+    text-decoration: none; /* Remove underline */
+    color: #847E7C;
+}
+
+
+#Home a{
+    color: rgba(33, 30, 29, 1);
+    ;
+}
+#nav-item-bar {
+    zoom: 0.8;
+    top: 31px;
+    left: 905px;
+    display: flex;
+    position: absolute;
+    /* align-items: end; */
+    text-align: end;
+}
+
+#clubbin {
+    margin-top: 3px;
+    margin-right: 398px;
+    position: absolute;
+    width: 158px;
+    height: 87px;
+    left: 186px;
+    top: 20px;
+
+    font-family: 'Guthen Bloots Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 87px;
+    /* identical to box height */
+
+    cursor: pointer;
+    color: #211E1D;
+    zoom: 0.8;
+}
+#logo {
+    position: absolute;
+    right: 1549px;
+    top: 22px;
+    bottom: 13px;
+    left: 90px;
+    height: 80.72037506103516px;
+    width: 72.58062744140625px;
+    left: 71.19491577148438px;
+    top: 27.046875px;
+    border-radius: 0px;
+    cursor: pointer;
+    zoom: 0.8;
+}
+#title{
+    float: left;
+    margin-left: 40px;
+    padding-left: 0.5px;
+    margin-top: -14px;
+    font-size: 22px;
+    font-family: 'GuthenBloots';
+    letter-spacing: 1.3px;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.navbar li a{
+    padding: 22px;
+    text-decoration: none;
+    color: #847E7C;
+    font-size: 17px;
+    font-family: ModernEra;
+    font-size: 16px;
+}
+.clubs {
+    margin-top: 86px;
+    margin-top: 70px;
+    margin-right: -140px;
+    margin-left: 583px;
+    
+    font-size: 42px;
+    font-family: RecoletaBold;
+    display: inline-block;
+    
+    
+}
+.search {
+    align-items: center;
+    display: flex;
+    margin-top: 130px;
+    float: right;
+    margin-right: 435px;
+    margin-top: -19px;
+    justify-content: center;
+}
+.search-bar {
+    height: 1.3em;
+    width: 60%;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 1px 120px;
+    border: 2px solid rgba(255, 148, 0, 0.01);
+    background-color: rgba(255, 148, 0, 0.25);
+    border-radius: 11px;
+}
+.search-bar input{
+    background: transparent;
+    outline: none;
+    flex: 1;
+    border: 0;
+    padding-left: 3px;
+}
+.search-bar button{
+    border: 0;
+    outline: none;
+    background-color: rgba(255, 148, 0, 0.0);
+    padding-left: 55px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#sdc_logo{
+    padding: 15px 10px;
+    width: 186px;
+    height: 199px;
+    border-radius: 40px;
+    margin-left: -16px;
+    margin-top: -31px;
+}
+div.left, div.right {
+    width: 20%;
+    padding: 15px 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    width: 170px;
+    height: 170px;
+    border-radius: 40px;
+    margin-top: 80px;
+
+}
+div.left {
+    align-self: flex-start;
+    
+    margin-left: 162px;
+}
+div.right {
+    align-self: flex-end;
+    
+    text-align: right;
+}
+#sdc {
+    float: right;
+    width: 68ch;
+    margin-left: 400px;
+    margin-top: -210px;
+    display: inline-block;
+}
+#sdc button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+.morebutton:hover{
+    transition: all 0.4s;
+}
+.morebutton:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 5px 11px rgba(255,148,0,0.6);
+}
+.morebutton{
+    cursor: pointer;
+}
+#acm {
+    float: right;
+    width: 68ch;
+    margin-left: 420px;
+    margin-top: -210px;
+    display: inline-block;
+    text-align: right;
+}
+#acm button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+#acmw {
+    float: right;
+    width: 68ch;
+    margin-left: 400px;
+    margin-top: -210px;
+    display: inline-block;
+}
+#acmw button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+#riwaayat {
+    float: right;
+    width: 68ch;
+    margin-left: 420px;
+    margin-top: -210px;
+    display: inline-block;
+    text-align: right;
+    color: #211E1D;
+}
+#riwaayat button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+#ameya {
+    float: right;
+    width: 68ch;
+    margin-left: 400px;
+    margin-top: -210px;
+    display: inline-block;
+}
+#ameya button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+#darpan {
+    float: right;
+    width: 68ch;
+    margin-left: 420px;
+    margin-top: -210px;
+    display: inline-block;
+    text-align: right;
+    color: #211E1D;
+}
+#darpan button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+#adakari {
+    float: right;
+    width: 68ch;
+    margin-left: 400px;
+    margin-top: -210px;
+    display: inline-block;
+}
+#adakari button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+#tvastra {
+    float: right;
+    width: 68ch;
+    margin-left: 420px;
+    margin-top: -210px;
+    display: inline-block;
+    text-align: right;
+    color: #211E1D;
+}
+#tvastra button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+#literary {
+    float: right;
+    width: 68ch;
+    margin-left: 400px;
+    margin-top: -210px;
+    display: inline-block;
+}
+#literary button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+#ieee {
+    float: right;
+    width: 68ch;
+    margin-left: 420px;
+    margin-top: -210px;
+    display: inline-block;
+    text-align: right;
+    color: #211E1D;
+}
+#ieee button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+#ieeew {
+    float: right;
+    width: 68ch;
+    margin-left: 400px;
+    margin-top: -210px;
+    display: inline-block;
+}
+#ieeew button{
+    background-color: #FF9400E5; 
+    border-radius: 6px;
+    outline-color: #FF9400E5;
+    margin-top: -1%;
+    width: 51px;
+    height: 1.4em;
+    border: none;
+    font-family: ModernEra;
+    font-size: medium;
+}
+.footer {
+    zoom: 0.8;
+    background-color: #211E1D;
+    color: #F8F4F2;
+    height: 550px;
+    position: relative;
+    clip-path: polygon(7% 0%, 100% 16%, 100% 90%, 100% 100%, 0% 100%, 0% 12%);
+    margin-top: 289px;
+}
+.footer-top span{
+    color: #F8F4F2;
+    font-family: 'Guthen Bloots Personal Use';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 87px;
+    cursor: pointer;
+}
+
+.footer .footer-top {
+    text-align: center;
+    height: 150px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+#letsgo {
+    float: right;
+    padding-left: 40px;
+    font-weight: 500;
+    font-family: GuthenBloots;
+     font-size: 57px;
+      padding-left: 120px;
+       padding-top: 53px;
+}
+
+.footer .footer-content {
+    height: 50px;
+    display: flex;
+    text-align: center;
+    margin-top: 150px;
+    width: 100%;
+    padding: 130px 25%;
+
+}
+
+.footer-content .col1 a {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    color: #F8F4F2;
+    font-family: ModernEraReg;
+    padding-left: 60px;
+    padding: 10px;
+    text-align: left;
+    padding-right: 240%;
+    width: 15ch;
+    
+}
+#borderline1{
+    
+    margin-top: 125px;
+    margin-left: 213px;
+    
+}
+.borderline{
+    
+    z-index: 999;
+    display: inline-block;
+    position: absolute;
+    width: 1px;
+    height: 220px;
+    background: #F8F4F2;
+}
+#borderline2{
+    margin-left: 444px;
+    margin-top: 125px;
+}
+
+.footer-content .col2 a,
+h3 {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #F8F4F2;
+    padding-left: 180px;
+    text-align: left;
+    font-family: Modern Era;
+}
+.footer-content .col2{
+    margin-top: -9px;
+    margin-left: -23px;
+}
+.footer-content .col3{
+    margin-top: -26px;
+    margin-left: -45px;
+}
+
+
+
+.footer-content .col2 p{
+    color: #F8F4F2;
+font-family: Recoleta;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.footer-content .col3 p{
+    color: #F8F4F2;
+font-family: Recoleta;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.footer-content .col3 a,
+h3 {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #F8F4F2;
+    padding-left: 180px;
+    text-align: left;
+}
+
+.footer .footer-bottom {
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    padding-top: 20px;
+    font-family: ModernEraReg;
+    font-size: 12px;
+}
